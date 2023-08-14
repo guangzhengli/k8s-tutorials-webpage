@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "k8s-tutorials-webpage",
+  title: "k8s tutorials",
   description: "A tutorials for k8s",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -22,7 +22,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/guangzhengli/k8s-tutorials' },
+      { icon: 'twitter', link: 'https://twitter.com/iguangzhengli' },
     ]
   }
 })
